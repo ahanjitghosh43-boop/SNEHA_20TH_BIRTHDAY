@@ -1,0 +1,1333 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Little Surprise For You ❤️</title>
+
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💗</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&family=Parisienne&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- FLOATING HEARTS -->
+
+    <div class="floating-hearts">
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+        <span>♡</span>
+    </div>
+
+
+    <!-- =========================================
+         OPENING
+         ========================================= -->
+
+    <section class="opening-section">
+
+        <div class="opening-card">
+
+            <p class="small-heading">
+                ✨ A Little Surprise For You ✨
+            </p>
+
+            <div class="heart-circle">
+                <span>♥</span>
+            </div>
+
+            <h1>
+                Something Special
+                <br>
+                <span>Is Waiting For You</span>
+            </h1>
+
+            <p class="opening-text">
+                A little journey filled with love,
+                memories and beautiful moments...
+            </p>
+
+            <button id="openButton">
+                OPEN SURPRISE
+                <span>♡</span>
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         COUNTDOWN
+         ========================================= -->
+
+    <section class="countdown-section" id="countdownSection">
+
+        <div class="countdown-content">
+
+            <p class="countdown-small">
+                ✨ A Special Day Is Coming ✨
+            </p>
+
+            <h2>
+                Her <span>20th Birthday</span>
+            </h2>
+
+            <p class="birthday-date">
+                14 • 10 • 2026
+            </p>
+
+            <p class="countdown-label">
+                Birthday begins in
+            </p>
+
+            <div class="countdown-boxes">
+
+                <div class="time-box">
+                    <span id="days">00</span>
+                    <small>DAYS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="hours">00</span>
+                    <small>HOURS</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="minutes">00</span>
+                    <small>MINUTES</small>
+                </div>
+
+                <div class="time-box">
+                    <span id="seconds">00</span>
+                    <small>SECONDS</small>
+                </div>
+
+            </div>
+
+            <p class="countdown-love">
+                Counting every moment until your special day... ♡
+            </p>
+
+            <button
+                id="testBirthdayButton"
+                class="test-birthday-button">
+
+                🎆 TEST BIRTHDAY BLAST
+
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         BIRTHDAY CELEBRATION
+         ========================================= -->
+
+    <section class="birthday-section" id="birthdaySection">
+
+        <div id="confettiContainer"></div>
+
+        <div id="fireworksContainer"></div>
+
+        <div id="emojiRain"></div>
+
+        <div class="birthday-content">
+
+            <p class="celebration-top">
+                ✨ THE WAIT IS OVER ✨
+            </p>
+
+            <h3>
+                HAPPY
+                <span>BIRTHDAY</span>
+            </h3>
+
+            <div class="birthday-number">
+                20
+            </div>
+
+            <p class="birthday-girl">
+                A beautiful new chapter begins... ♡
+            </p>
+
+
+            <!-- CAKE -->
+
+            <div class="birthday-cake">
+
+                <div class="cake-candles">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </div>
+
+                <div class="cake-top"></div>
+
+                <div class="cake-body">
+
+                    <div class="cake-cream"></div>
+
+                    <div class="cake-drip"></div>
+
+                </div>
+
+                <div class="cake-plate"></div>
+
+            </div>
+
+
+            <!-- WISH -->
+
+            <div class="wish-area">
+
+                <p class="wish-text">
+                    ✨ Make a wish... ✨
+                </p>
+
+                <button
+                    class="wish-button"
+                    id="wishButton">
+
+                    💨 Blow the Candles
+
+                </button>
+
+            </div>
+
+
+            <div class="birthday-line"></div>
+
+
+            <p class="birthday-message">
+
+                May your smile always be this beautiful,
+                your heart always be this happy,
+                and your life always be filled with love.
+
+            </p>
+
+
+            <!-- MUSIC -->
+
+            <button
+                class="music-button"
+                id="musicButton">
+
+                ♫ Play Your Birthday Song
+
+            </button>
+
+            <p class="music-status" id="musicStatus"></p>
+
+            <audio
+                id="birthdayAudio"
+                preload="auto">
+
+                <source
+                    src="music/birthday-song.mp3"
+                    type="audio/mpeg">
+
+            </audio>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         MEMORIES
+         ========================================= -->
+
+    <section
+        class="memories-section"
+        id="memoriesSection">
+
+        <div class="memories-content">
+
+            <p class="memories-small">
+                ✨ OUR BEAUTIFUL MOMENTS ✨
+            </p>
+
+            <h2>
+                Little Moments,
+                <span>Beautiful Memories</span>
+            </h2>
+
+            <p class="memories-intro">
+                Some moments become memories,
+                and some memories become forever. ♡
+            </p>
+
+
+            <div class="photo-gallery">
+
+                <div class="photo-card photo-one">
+
+                    <img
+                        src="images/photo1.jpg"
+                        alt="Beautiful Memory 1">
+
+                    <div class="photo-caption">
+                        <span>♡</span>
+                        <p>A moment I’ll always remember</p>
+                    </div>
+
+                </div>
+
+
+                <div class="photo-card photo-two">
+
+                    <img
+                        src="images/photo2.jpg"
+                        alt="Beautiful Memory 2">
+
+                    <div class="photo-caption">
+                        <span>♡</span>
+                        <p>One of my favourite memories</p>
+                    </div>
+
+                </div>
+
+
+                <div class="photo-card photo-three">
+
+                    <img
+                        src="images/photo3.jpg"
+                        alt="Beautiful Memory 3">
+
+                    <div class="photo-caption">
+                        <span>♡</span>
+                        <p>Just you, me &amp; a beautiful moment</p>
+                    </div>
+
+                </div>
+
+
+                <div class="photo-card photo-four">
+
+                    <img
+                        src="images/photo4.jpg"
+                        alt="Beautiful Memory 4">
+
+                    <div class="photo-caption">
+                        <span>♡</span>
+                        <p>Some moments deserve forever</p>
+                    </div>
+
+                </div>
+
+
+                <div class="photo-card photo-five">
+
+                    <img
+                        src="images/photo5.jpg"
+                        alt="Beautiful Memory 5">
+
+                    <div class="photo-caption">
+                        <span>♡</span>
+                        <p>And there are many more to come ♡</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+<!-- =========================================
+     4 YEARS TOGETHER TIMELINE
+========================================= -->
+
+<section class="timeline-section" id="timeline">
+
+    <div class="timeline-header">
+
+        <span class="section-small">
+            Our Little Journey
+        </span>
+
+        <h2>
+            4 Years Together ❤️
+        </h2>
+
+        <p>
+            We knew each other long before our story officially began.
+            But on 5 May 2022, something changed...
+            and our beautiful journey became "us".
+        </p>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <!-- 2022 -->
+        <div class="timeline-item timeline-left">
+
+            <div class="timeline-dot">
+                ♡
+            </div>
+
+            <div class="timeline-card">
+
+                <span class="timeline-year">
+                    2022
+                </span>
+
+                <h3>
+                    The Day Our Story Began 🌸
+                </h3>
+
+                <p>
+                    We had known each other for a long time,
+                    but 5 May 2022 became a day I will never forget.
+                    You proposed to me, and from that beautiful moment,
+                    our story became something more than just a friendship.
+                    It became ours.
+                </p>
+
+                <p>
+                    One of my sweetest memories from that year was
+                    going to study Mathematics together the morning
+                    after my birthday.
+                    It was such a simple moment, but somehow,
+                    it became one of my favourite memories.
+                </p>
+
+                <span class="timeline-heart">
+                    ♡
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2023 -->
+        <div class="timeline-item timeline-right">
+
+            <div class="timeline-dot">
+                ♡
+            </div>
+
+            <div class="timeline-card">
+
+                <span class="timeline-year">
+                    2023
+                </span>
+
+                <h3>
+                    Our First Anniversary 🌷
+                </h3>
+
+                <p>
+                    One year of us.
+                    One year filled with conversations,
+                    laughter, little fights, endless memories,
+                    and countless reasons to smile.
+                </p>
+
+                <p>
+                    Celebrating our first anniversary made me realise
+                    how beautifully our little story had grown.
+                </p>
+
+                <span class="timeline-heart">
+                    ♡
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2024 -->
+        <div class="timeline-item timeline-left">
+
+            <div class="timeline-dot">
+                ♡
+            </div>
+
+            <div class="timeline-card">
+
+                <span class="timeline-year">
+                    2024
+                </span>
+
+                <h3>
+                    Our First Boat Ride ✨
+                </h3>
+
+                <p>
+                    Our first boating experience together on the Ganga.
+                    Just the two of us, the water, the breeze,
+                    and a moment that felt completely different
+                    from our everyday life.
+                </p>
+
+                <p>
+                    It became one of those memories that
+                    I can still picture whenever I think about us.
+                </p>
+
+                <span class="timeline-heart">
+                    ♡
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2025 -->
+        <div class="timeline-item timeline-right">
+
+            <div class="timeline-dot">
+                ♡
+            </div>
+
+            <div class="timeline-card">
+
+                <span class="timeline-year">
+                    2025
+                </span>
+
+                <h3>
+                    Little Secrets & A New Adventure 💗
+                </h3>
+
+                <p>
+                    Some moments from this year are too personal
+                    to put into words here.
+                    They are little chapters that belong only to us,
+                    and I will always keep them close to my heart.
+                </p>
+
+                <p>
+                    And then came 30 November —
+                    our first Kolkata outing together.
+                    A new city, new memories,
+                    and another beautiful chapter of our story.
+                </p>
+
+                <span class="timeline-heart">
+                    ♡
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <!-- 2026 -->
+        <div class="timeline-item timeline-left timeline-final">
+
+            <div class="timeline-dot">
+                ♥
+            </div>
+
+            <div class="timeline-card">
+
+                <span class="timeline-year">
+                    2026
+                </span>
+
+                <h3>
+                    Our Most Memorable Day ❤️
+                </h3>
+
+                <p>
+                    30 August 2026.
+                    A day that holds a very special place
+                    in my heart.
+                </p>
+
+                <p>
+                    Some days become memories,
+                    but some days become a part of who we are.
+                    This was one of those days for me.
+                </p>
+
+                <p>
+                    And now, after everything we've shared,
+                    here we are — still writing our story together.
+                </p>
+
+                <span class="timeline-heart">
+                    ♥
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- TIMELINE ENDING -->
+
+    <div class="timeline-ending">
+
+        <div class="timeline-ending-heart">
+            ❤️
+        </div>
+
+        <p>
+            4 years down...
+        </p>
+
+        <h3>
+            Forever to go. ♾️
+        </h3>
+
+        <span>
+            Happy 4 Years of Us, Boupakhi. ❤️
+        </span>
+
+    </div>
+
+</section>
+
+
+    <!-- =========================================
+         20 LITTLE REASONS
+         ========================================= -->
+
+    <section
+        class="reasons-section"
+        id="reasons">
+
+        <div class="reasons-header">
+
+            <span class="section-small-title">
+                A Little Something From My Heart
+            </span>
+
+            <h2>
+                20 Little Reasons ♡
+            </h2>
+
+            <p>
+                For your 20th birthday, here are 20 little reasons
+                why you are so special to me. ✨
+            </p>
+
+        </div>
+
+
+        <div class="reasons-grid">
+
+            <div class="reason-card">
+
+                <span class="reason-number">01</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Smile
+                </h3>
+
+                <p>
+                    Your smile has a way of making even my worst days feel better.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">02</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Caring Heart
+                </h3>
+
+                <p>
+                    The way you care about the people you love is truly beautiful.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">03</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Voice
+                </h3>
+
+                <p>
+                    There is something special about hearing your voice that calms me.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">04</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Little Anger
+                </h3>
+
+                <p>
+                    Even your little moments of anger somehow become precious memories.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">05</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    You Understand Me
+                </h3>
+
+                <p>
+                    You understand parts of me that I sometimes cannot explain.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">06</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Presence
+                </h3>
+
+                <p>
+                    Sometimes I don't need anything else.
+                    Just having you around is enough.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">07</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Laugh
+                </h3>
+
+                <p>
+                    Your laugh is one of those little sounds
+                    I could never get tired of.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">08</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Kindness
+                </h3>
+
+                <p>
+                    Your kindness makes the world around you feel a little softer.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">09</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    You Make Me Smile
+                </h3>
+
+                <p>
+                    Even on ordinary days, somehow you always give me
+                    a reason to smile.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">10</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Our Memories
+                </h3>
+
+                <p>
+                    Every memory with you has become a small piece
+                    of my happiest life.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">11</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Little Habits
+                </h3>
+
+                <p>
+                    Even the tiny things you do have somehow
+                    become special to me.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">12</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    You Feel Like Home
+                </h3>
+
+                <p>
+                    With you, I can simply be myself without pretending
+                    to be anyone else.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">13</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Patience
+                </h3>
+
+                <p>
+                    Thank you for staying, understanding and giving me chances.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">14</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    You Make Life Beautiful
+                </h3>
+
+                <p>
+                    You have a way of turning simple moments
+                    into beautiful memories.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">15</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Beautiful Soul
+                </h3>
+
+                <p>
+                    What makes you beautiful is not only how you look,
+                    but who you are.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">16</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Our Little Fights
+                </h3>
+
+                <p>
+                    Even our silly fights become memories
+                    that I secretly cherish.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">17</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Your Support
+                </h3>
+
+                <p>
+                    Knowing that you are there makes difficult days
+                    feel a little easier.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">18</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    The Way You Love
+                </h3>
+
+                <p>
+                    The way you love makes me feel lucky
+                    to have you in my life.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card">
+
+                <span class="reason-number">19</span>
+
+                <div class="reason-heart">
+                    ♡
+                </div>
+
+                <h3>
+                    Our Journey
+                </h3>
+
+                <p>
+                    Four years of memories, moments, laughter and love
+                    mean so much to me.
+                </p>
+
+            </div>
+
+
+            <div class="reason-card special-reason">
+
+                <span class="reason-number">20</span>
+
+                <div class="reason-heart">
+                    ♥
+                </div>
+
+                <h3>
+                    Because You're You
+                </h3>
+
+                <p>
+                    I don't need a reason to love you.
+                    You are simply my Boupakhi. ♡
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="reasons-ending">
+
+            <p>
+                20 reasons written down...
+            </p>
+
+            <strong>
+                but I could write a thousand more. ♡
+            </strong>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         PERSONAL LETTER
+         ========================================= -->
+
+    <section
+        class="letter-section"
+        id="letterSection">
+
+        <div class="letter-decoration letter-heart">
+            ♡
+        </div>
+
+        <div class="letter-content">
+
+            <p class="letter-small">
+                ✨ A LITTLE LETTER FOR YOU ✨
+            </p>
+
+            <h2>
+                To My
+                <span>Boupakhi</span>
+            </h2>
+
+            <div class="letter-card">
+
+                <div class="letter-top">
+                    <span>♡</span>
+                    <span>14 • 10 • 2026</span>
+                    <span>♡</span>
+                </div>
+
+                <div class="letter-text">
+
+                    <p>
+                        My dear Boupakhi,
+                    </p>
+
+                    <p>
+                        Today is not just another day.
+                        Today is the day someone very special
+                        came into this world — and somehow,
+                        my world became more beautiful because of you.
+                    </p>
+
+                    <p>
+                        We have shared so many moments together.
+                        Some were filled with laughter, some with
+                        little arguments, and some with memories
+                        that I wish I could keep forever.
+                    </p>
+
+                    <p>
+                        Through everything, one thing has remained
+                        the same — you are incredibly special to me.
+                    </p>
+
+                    <p>
+                        On your 20th birthday, I just want to wish
+                        you a life full of happiness, beautiful dreams,
+                        success, and countless reasons to smile.
+                    </p>
+
+                    <p>
+                        And whenever life gets difficult,
+                        I hope you remember that there is someone
+                        who will always wish to see you happy.
+                    </p>
+
+                    <p class="letter-ending">
+                        Happy 20th Birthday, Boupakhi. ♡
+                    </p>
+
+                    <p class="letter-signature">
+                        Always yours,
+                        <br>
+                        <span>Ahanjit</span>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================================
+         FINAL SURPRISE
+         ========================================= -->
+
+    <section
+        class="surprise-section"
+        id="surpriseSection">
+
+        <div class="surprise-glow"></div>
+
+        <div class="surprise-content">
+
+            <p class="surprise-small">
+                ✨ ONE LAST LITTLE SURPRISE ✨
+            </p>
+
+            <h2>
+                Before You Go...
+                <span>There’s One More Thing</span>
+            </h2>
+
+            <p class="surprise-intro">
+                I saved something special for the very end.
+                <br>
+                Maybe this little surprise will make you smile. ♡
+            </p>
+
+
+            <!-- OPEN MY HEART -->
+
+            <button
+                class="surprise-button"
+                id="surpriseButton">
+
+                <span>♡</span>
+                Open My Heart
+
+            </button>
+
+
+            <!-- FINAL MESSAGE -->
+
+            <div
+                class="final-message"
+                id="finalMessage">
+
+                <div
+                    class="final-particles"
+                    id="finalParticles">
+                </div>
+
+                <div class="final-heart">
+                    ♥
+                </div>
+
+                <p class="final-title">
+                    You are my favourite part of every story.
+                </p>
+
+                <p class="final-text">
+                    No matter how many birthdays come and go,
+                    I hope we keep creating beautiful memories,
+                    laughing at silly things,
+                    fighting over little things,
+                    and finding our way back to each other.
+                </p>
+
+                <p class="final-wish">
+                    Here's to you, your dreams,
+                    and all the beautiful days waiting ahead. ♡
+                </p>
+
+                <div class="final-signature">
+                    Happy Birthday, Boupakhi
+                    <span>♡</span>
+                </div>
+
+            </div>
+
+
+            <!-- =========================================
+                 SECRET HEART SURPRISE
+                 ========================================= -->
+
+            <div class="secret-heart-area">
+
+                <p class="secret-hint">
+                    There is still one little secret left... ✨
+                </p>
+
+                <button
+                    class="secret-heart-button"
+                    id="secretHeartButton">
+
+                    <span>♡</span>
+                    Open My Secret
+
+                </button>
+
+
+                <!-- HIDDEN SECRET MESSAGE -->
+
+                <div
+                    class="secret-message"
+                    id="secretMessage">
+
+                    <div class="secret-heart-icon">
+                        ♥
+                    </div>
+
+                    <h3>
+                        One Last Thing...
+                    </h3>
+
+                    <p>
+                        If I had to choose my favourite place
+                        in this whole world, I would choose
+                        wherever you are. ❤️
+                    </p>
+
+                    <p>
+                        Thank you for being a part of my life,
+                        for all our memories, all our silly moments,
+                        and all the love we have shared.
+                    </p>
+
+                    <strong>
+                        Happy 20th Birthday, My Boupakhi. ♡
+                    </strong>
+
+                    <span class="secret-signature">
+                        — Ahanjit
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    
+<!-- =========================================
+     PHOTO LIGHTBOX
+     ========================================= -->
+
+<div class="photo-lightbox" id="photoLightbox">
+
+    <button class="lightbox-close" id="lightboxClose">
+        ×
+    </button>
+
+    <button class="lightbox-prev" id="lightboxPrev">
+        ‹
+    </button>
+
+    <div class="lightbox-content">
+
+        <img
+            src=""
+            alt="Memory Photo"
+            id="lightboxImage"
+        >
+
+        <p id="lightboxCaption"></p>
+
+    </div>
+
+    <button class="lightbox-next" id="lightboxNext">
+        ›
+    </button>
+
+</div>
+
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
